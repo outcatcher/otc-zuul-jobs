@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.87742436" branch-rate="0" lines-covered="2262" lines-valid="2578" branches-covered="0"
+          branches-valid="0" complexity="0" version="" timestamp="1608640192375">
+    <packages>
+        <package name="github.com/opentelekomcloud/gophertelekomcloud/openstack/antiddos/v1/antiddos/testing"
+                 line-rate="1" branch-rate="0" complexity="0" line-count="63" line-hits="63">
+            <classes>
+                <class name="-" filename="openstack/antiddos/v1/antiddos/testing/fixtures.go" line-rate="1"
+                       branch-rate="0" complexity="0" line-count="63" line-hits="63">
+                    <methods>
+                        <method name="HandleCreateSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="39" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@39:70" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="40" hits="1"></line>
+                                <line number="41" hits="1"></line>
+                                <line number="42" hits="1"></line>
+                                <line number="44" hits="1"></line>
+                                <line number="45" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleDeleteSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="64" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@64:70" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="65" hits="1"></line>
+                                <line number="66" hits="1"></line>
+                                <line number="68" hits="1"></line>
+                                <line number="69" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleGetSuccessfully" signature="" line-rate="1" branch-rate="0" complexity="0"
+                                line-count="0" line-hits="0">
+                            <lines>
+                                <line number="92" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@92:70" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="93" hits="1"></line>
+                                <line number="94" hits="1"></line>
+                                <line number="96" hits="1"></line>
+                                <line number="97" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleUpdateSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="126" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@126:70" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="127" hits="1"></line>
+                                <line number="128" hits="1"></line>
+                                <line number="129" hits="1"></line>
+                                <line number="131" hits="1"></line>
+                                <line number="132" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleListStatusSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="158" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@158:33" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="159" hits="1"></line>
+                                <line number="160" hits="1"></line>
+                                <line number="162" hits="1"></line>
+                                <line number="163" hits="1"></line>
+                                <line number="164" hits="1"></line>
+                                <line number="165" hits="1"></line>
+                                <line number="166" hits="1"></line>
+                                <line number="167" hits="1"></line>
+                                <line number="168" hits="1"></line>
+                                <line number="169" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleListConfigsSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="462" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@462:51" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="463" hits="1"></line>
+                                <line number="464" hits="1"></line>
+                                <line number="466" hits="1"></line>
+                                <line number="467" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleWeeklyReportSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="596" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@596:40" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="597" hits="1"></line>
+                                <line number="598" hits="1"></line>
+                                <line number="600" hits="1"></line>
+                                <line number="601" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleListLogsSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="633" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@633:75" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="634" hits="1"></line>
+                                <line number="635" hits="1"></line>
+                                <line number="637" hits="1"></line>
+                                <line number="638" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleGetStatusSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="649" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@649:77" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="650" hits="1"></line>
+                                <line number="651" hits="1"></line>
+                                <line number="653" hits="1"></line>
+                                <line number="654" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleDailyReportSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="725" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@725:76" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="726" hits="1"></line>
+                                <line number="727" hits="1"></line>
+                                <line number="729" hits="1"></line>
+                                <line number="730" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleGetTaskSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="747" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@747:42" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="748" hits="1"></line>
+                                <line number="749" hits="1"></line>
+                                <line number="751" hits="1"></line>
+                                <line number="752" hits="1"></line>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="39" hits="1"></line>
+                        <line number="40" hits="1"></line>
+                        <line number="41" hits="1"></line>
+                        <line number="42" hits="1"></line>
+                        <line number="44" hits="1"></line>
+                        <line number="45" hits="1"></line>
+                        <line number="64" hits="1"></line>
+                        <line number="65" hits="1"></line>
+                        <line number="66" hits="1"></line>
+                        <line number="68" hits="1"></line>
+                        <line number="69" hits="1"></line>
+                        <line number="92" hits="1"></line>
+                        <line number="93" hits="1"></line>
+                        <line number="94" hits="1"></line>
+                        <line number="96" hits="1"></line>
+                        <line number="97" hits="1"></line>
+                        <line number="126" hits="1"></line>
+                        <line number="127" hits="1"></line>
+                        <line number="128" hits="1"></line>
+                        <line number="129" hits="1"></line>
+                        <line number="131" hits="1"></line>
+                        <line number="132" hits="1"></line>
+                        <line number="158" hits="1"></line>
+                        <line number="159" hits="1"></line>
+                        <line number="160" hits="1"></line>
+                        <line number="162" hits="1"></line>
+                        <line number="163" hits="1"></line>
+                        <line number="164" hits="1"></line>
+                        <line number="165" hits="1"></line>
+                        <line number="166" hits="1"></line>
+                        <line number="167" hits="1"></line>
+                        <line number="168" hits="1"></line>
+                        <line number="169" hits="1"></line>
+                        <line number="462" hits="1"></line>
+                        <line number="463" hits="1"></line>
+                        <line number="464" hits="1"></line>
+                        <line number="466" hits="1"></line>
+                        <line number="467" hits="1"></line>
+                        <line number="596" hits="1"></line>
+                        <line number="597" hits="1"></line>
+                        <line number="598" hits="1"></line>
+                        <line number="600" hits="1"></line>
+                        <line number="601" hits="1"></line>
+                        <line number="633" hits="1"></line>
+                        <line number="634" hits="1"></line>
+                        <line number="635" hits="1"></line>
+                        <line number="637" hits="1"></line>
+                        <line number="638" hits="1"></line>
+                        <line number="649" hits="1"></line>
+                        <line number="650" hits="1"></line>
+                        <line number="651" hits="1"></line>
+                        <line number="653" hits="1"></line>
+                        <line number="654" hits="1"></line>
+                        <line number="725" hits="1"></line>
+                        <line number="726" hits="1"></line>
+                        <line number="727" hits="1"></line>
+                        <line number="729" hits="1"></line>
+                        <line number="730" hits="1"></line>
+                        <line number="747" hits="1"></line>
+                        <line number="748" hits="1"></line>
+                        <line number="749" hits="1"></line>
+                        <line number="751" hits="1"></line>
+                        <line number="752" hits="1"></line>
+                    </lines>
+                </class>
+            </classes>
+        </package>
+        <package
+                name="github.com/opentelekomcloud/gophertelekomcloud/openstack/networking/v2/extensions/lbaas_v2/l7policies/testing"
+                line-rate="0.8333333" branch-rate="0" complexity="0" line-count="66" line-hits="55">
+            <classes>
+                <class name="-" filename="openstack/networking/v2/extensions/lbaas_v2/l7policies/testing/fixtures.go"
+                       line-rate="0.8333333" branch-rate="0" complexity="0" line-count="66" line-hits="55">
+                    <methods>
+                        <method name="HandleL7PolicyCreationSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="107" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@107:46" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="108" hits="1"></line>
+                                <line number="109" hits="1"></line>
+                                <line number="110" hits="1"></line>
+                                <line number="119" hits="1"></line>
+                                <line number="120" hits="1"></line>
+                                <line number="121" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleL7PolicyListSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="179" hits="2"></line>
+                            </lines>
+                        </method>
+                        <method name="@179:46" signature="" line-rate="0.7777778" branch-rate="0" complexity="0"
+                                line-count="0" line-hits="0">
+                            <lines>
+                                <line number="180" hits="3"></line>
+                                <line number="181" hits="3"></line>
+                                <line number="183" hits="3"></line>
+                                <line number="184" hits="3"></line>
+                                <line number="185" hits="3"></line>
+                                <line number="186" hits="3"></line>
+                                <line number="188" hits="3"></line>
+                                <line number="190" hits="0"></line>
+                                <line number="192" hits="0"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleL7PolicyGetSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="199" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@199:83" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="200" hits="1"></line>
+                                <line number="201" hits="1"></line>
+                                <line number="202" hits="1"></line>
+                                <line number="204" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleL7PolicyDeletionSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="210" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@210:83" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="211" hits="1"></line>
+                                <line number="212" hits="1"></line>
+                                <line number="214" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleL7PolicyUpdateSuccessfully" signature="" line-rate="0" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="220" hits="0"></line>
+                            </lines>
+                        </method>
+                        <method name="@220:83" signature="" line-rate="0" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="221" hits="0"></line>
+                                <line number="222" hits="0"></line>
+                                <line number="223" hits="0"></line>
+                                <line number="224" hits="0"></line>
+                                <line number="225" hits="0"></line>
+                                <line number="232" hits="0"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleRuleCreationSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="255" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@255:89" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="256" hits="1"></line>
+                                <line number="257" hits="1"></line>
+                                <line number="258" hits="1"></line>
+                                <line number="266" hits="1"></line>
+                                <line number="267" hits="1"></line>
+                                <line number="268" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleRuleListSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="302" hits="2"></line>
+                            </lines>
+                        </method>
+                        <method name="@302:89" signature="" line-rate="0.7777778" branch-rate="0" complexity="0"
+                                line-count="0" line-hits="0">
+                            <lines>
+                                <line number="303" hits="3"></line>
+                                <line number="304" hits="3"></line>
+                                <line number="306" hits="3"></line>
+                                <line number="307" hits="3"></line>
+                                <line number="308" hits="3"></line>
+                                <line number="309" hits="3"></line>
+                                <line number="311" hits="3"></line>
+                                <line number="313" hits="0"></line>
+                                <line number="315" hits="0"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleRuleGetSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="322" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@322:126" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="323" hits="1"></line>
+                                <line number="324" hits="1"></line>
+                                <line number="325" hits="1"></line>
+                                <line number="327" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleRuleDeletionSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="333" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@333:126" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="334" hits="1"></line>
+                                <line number="335" hits="1"></line>
+                                <line number="337" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="HandleRuleUpdateSuccessfully" signature="" line-rate="1" branch-rate="0"
+                                complexity="0" line-count="0" line-hits="0">
+                            <lines>
+                                <line number="359" hits="1"></line>
+                            </lines>
+                        </method>
+                        <method name="@359:126" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0"
+                                line-hits="0">
+                            <lines>
+                                <line number="360" hits="1"></line>
+                                <line number="361" hits="1"></line>
+                                <line number="362" hits="1"></line>
+                                <line number="363" hits="1"></line>
+                                <line number="364" hits="1"></line>
+                                <line number="374" hits="1"></line>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="107" hits="1"></line>
+                        <line number="108" hits="1"></line>
+                        <line number="109" hits="1"></line>
+                        <line number="110" hits="1"></line>
+                        <line number="119" hits="1"></line>
+                        <line number="120" hits="1"></line>
+                        <line number="121" hits="1"></line>
+                        <line number="179" hits="2"></line>
+                        <line number="180" hits="3"></line>
+                        <line number="181" hits="3"></line>
+                        <line number="183" hits="3"></line>
+                        <line number="184" hits="3"></line>
+                        <line number="185" hits="3"></line>
+                        <line number="186" hits="3"></line>
+                        <line number="188" hits="3"></line>
+                        <line number="190" hits="0"></line>
+                        <line number="192" hits="0"></line>
+                        <line number="199" hits="1"></line>
+                        <line number="200" hits="1"></line>
+                        <line number="201" hits="1"></line>
+                        <line number="202" hits="1"></line>
+                        <line number="204" hits="1"></line>
+                        <line number="210" hits="1"></line>
+                        <line number="211" hits="1"></line>
+                        <line number="212" hits="1"></line>
+                        <line number="214" hits="1"></line>
+                        <line number="220" hits="0"></line>
+                        <line number="221" hits="0"></line>
+                        <line number="222" hits="0"></line>
+                        <line number="223" hits="0"></line>
+                        <line number="224" hits="0"></line>
+                        <line number="225" hits="0"></line>
+                        <line number="232" hits="0"></line>
+                        <line number="255" hits="1"></line>
+                        <line number="256" hits="1"></line>
+                        <line number="257" hits="1"></line>
+                        <line number="258" hits="1"></line>
+                        <line number="266" hits="1"></line>
+                        <line number="267" hits="1"></line>
+                        <line number="268" hits="1"></line>
+                        <line number="302" hits="2"></line>
+                        <line number="303" hits="3"></line>
+                        <line number="304" hits="3"></line>
+                        <line number="306" hits="3"></line>
+                        <line number="307" hits="3"></line>
+                        <line number="308" hits="3"></line>
+                        <line number="309" hits="3"></line>
+                        <line number="311" hits="3"></line>
+                        <line number="313" hits="0"></line>
+                        <line number="315" hits="0"></line>
+                        <line number="322" hits="1"></line>
+                        <line number="323" hits="1"></line>
+                        <line number="324" hits="1"></line>
+                        <line number="325" hits="1"></line>
+                        <line number="327" hits="1"></line>
+                        <line number="333" hits="1"></line>
+                        <line number="334" hits="1"></line>
+                        <line number="335" hits="1"></line>
+                        <line number="337" hits="1"></line>
+                        <line number="359" hits="1"></line>
+                        <line number="360" hits="1"></line>
+                        <line number="361" hits="1"></line>
+                        <line number="362" hits="1"></line>
+                        <line number="363" hits="1"></line>
+                        <line number="364" hits="1"></line>
+                        <line number="374" hits="1"></line>
+                    </lines>
+                </class>
+            </classes>
+        </package>
+    </packages>
+    <sources>
+        <source>/home/akachuri/GolandProjects/gophertelekomcloud</source>
+    </sources>
+</coverage>
